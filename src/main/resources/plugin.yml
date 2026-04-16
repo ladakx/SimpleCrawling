@@ -1,0 +1,27 @@
+name: SimpleCrawling
+main: me.ladakx.simplecrawling.SimpleCrawling
+version: ${version}
+api-version: "1.13"
+folia-supported: true
+authors: [Ladakx]
+commands:
+  simplecrawling:
+    description: SimpleCrawling commands
+    usage: /<command> <reload|on|off|toggle>
+    aliases: [scrawl]
+  crawl:
+    description: Toggle your crawling state
+    usage: /<command>
+permissions:
+  simplecrawling.reload:
+    description: Allows reloading the SimpleCrawling config
+    default: op
+  simplecrawling.manage:
+    description: Allows managing crawling for other players
+    default: op
+  simplecrawling.crawl:
+    description: Allows toggling your own crawling state
+    default: true
+  simplecrawling.update-notify:
+    description: Allows receiving update notifications on join
+    default: op

@@ -1,0 +1,6 @@
+hitbox-offset: 0.5
+update-checker:
+  enabled: true
+  notify-on-join: true
+  log-to-console: true
+  log-failures: false

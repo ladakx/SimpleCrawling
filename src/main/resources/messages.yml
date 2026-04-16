@@ -1,0 +1,16 @@
+command:
+  no-permission: "&cNo permission."
+  players-only: "&cThis command can only be used by players."
+  reload-success: "&aSimpleCrawling config reloaded."
+  player-not-found: "&cPlayer &f{player} &cnot found."
+  crawl-enabled: "&aCrawling enabled for &f{player}&a."
+  crawl-disabled: "&aCrawling disabled for &f{player}&a."
+  already-crawling: "&e{player} is already crawling."
+  not-crawling: "&e{player} is not crawling."
+  self-enabled: "&aCrawling enabled."
+  self-disabled: "&aCrawling disabled."
+  usage: "&eUsage: /{label} <reload|on|off|toggle> [player]"
+  crawl-usage: "&eUsage: /{label}"
+update-checker:
+  available: "&eA new SimpleCrawling update is available: &f{latest}&e. Current version: &f{current}&e."
+  download-link: "&eDownload: &f{url}"
